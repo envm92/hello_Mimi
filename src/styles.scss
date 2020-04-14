@@ -1,0 +1,9 @@
+@import '~@angular/material/theming';
+@include mat-core();
+$angular-seed-primary: mat-palette($mat-pink);
+$angular-seed-accent: mat-palette($mat-yellow, A200, A100, A400);
+$angular-seed-warn: mat-palette($mat-orange);
+$angular-seed-theme: mat-light-theme($angular-seed-primary, $angular-seed-accent, $angular-seed-warn);
+@include angular-material-theme($angular-seed-theme);
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

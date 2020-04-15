@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import {
   faSmileWink,
   faGlobeAmericas,
-  faLanguage
+  faLanguage,
+  faStar,
+  faUniversity
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -15,7 +17,9 @@ export class DataSheetComponent implements OnInit {
   icons = {
     smile: faSmileWink,
     americas: faGlobeAmericas,
-    language: faLanguage
+    language: faLanguage,
+    start: faStar,
+    university: faUniversity
   };
 
   constructor() { }

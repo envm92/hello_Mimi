@@ -17,6 +17,7 @@ import { HomeComponent } from 'src/screens/home/home.component';
 // Material
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MatListModule } from '@angular/material/list';
     FontAwesomeModule,
     MatSidenavModule,
     MatListModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

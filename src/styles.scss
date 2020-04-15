@@ -1,9 +1,15 @@
 @import '~@angular/material/theming';
-@include mat-core();
-$angular-seed-primary: mat-palette($mat-pink);
-$angular-seed-accent: mat-palette($mat-yellow, A200, A100, A400);
-$angular-seed-warn: mat-palette($mat-orange);
-$angular-seed-theme: mat-light-theme($angular-seed-primary, $angular-seed-accent, $angular-seed-warn);
-@include angular-material-theme($angular-seed-theme);
+$hello-mimi-typography: mat-typography-config(
+  $font-family: 'Jura'
+);
+@include mat-core($hello-mimi-typography);
+$hello-mimi-primary: mat-palette($mat-pink);
+$hello-mimi-accent: mat-palette($mat-yellow, A200, A100, A400);
+$hello-mimi-warn: mat-palette($mat-orange);
+$hello-mimi-theme: mat-dark-theme($hello-mimi-primary, $hello-mimi-accent, $hello-mimi-warn);
+@include angular-material-theme($hello-mimi-theme);
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Jura', sans-serif; }
+.container {
+  margin: 1rem;
+}

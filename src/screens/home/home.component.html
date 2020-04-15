@@ -1,3 +1,13 @@
-<div fxFill fxLayout="column" fxLayoutAlign="center center" >
-  <h1>Hello World!</h1>
-</div>
+<mat-drawer-container fxFill>
+  <mat-drawer #drawer mode="side">
+    <p>Auto-resizing sidenav</p>
+  </mat-drawer>
+  <div fxFill fxLayout="row">
+    <div fxFlex="20" fxFlexFill>
+      <app-data-sheet></app-data-sheet>
+    </div>
+    <div fxFlex>
+      <h1>hello</h1>
+    </div>
+  </div>
+</mat-drawer-container>

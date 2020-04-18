@@ -10,6 +10,7 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { AppComponent } from 'src/app/app.component';
 import { MainComponent } from 'src/components/main/main.component';
 import { DataSheetComponent } from 'src/components/data-sheet/data-sheet.component';
+import { SectionComponent } from '../components/section/section.component';
 
 // Screens
 import { HomeComponent } from 'src/screens/home/home.component';
@@ -18,13 +19,18 @@ import { HomeComponent } from 'src/screens/home/home.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     HomeComponent,
-    DataSheetComponent
+    DataSheetComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +40,11 @@ import { MatTabsModule } from '@angular/material/tabs';
     FontAwesomeModule,
     MatSidenavModule,
     MatListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatChipsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="languagesTab" datatype="html">
+        <source>Languages</source>
+        <target>Lenguajes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/screens/home/home.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="toolsTab" datatype="html">
+        <source>Tools</source>
+        <target>Herramientas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/screens/home/home.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languagesLabel" datatype="html">
+        <source>Languages</source>
+        <target>Idiomas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/screens/home/home.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="personalDataSubheader" datatype="html">
+        <source>Personal data</source>
+        <target>Datos personales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nameLabel" datatype="html">
+        <source>Name</source>
+        <target>Nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="locationLabel" datatype="html">
+        <source>Location</source>
+        <target>Ubicación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="locationValue" datatype="html">
+        <source> Mexico City, Mexico</source>
+        <target>CDMX, México</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languagesValue" datatype="html">
+        <source> Spanish, English</source>
+        <target>Español, Inglés</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experienceLabel" datatype="html">
+        <source>Experience</source>
+        <target>Experiencia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experienceValue" datatype="html">
+        <source> 5 years</source>
+        <target> 5 años</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="educationSubheader" datatype="html">
+        <source>Education</source>
+        <target>Formación academica</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="educationLabel" datatype="html">
+        <source>UPEMOR, Morelos Mexico</source>
+        <target>UPEMOR, Morelos México</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="educationValue" datatype="html">
+        <source> Barchelo&apos;s Computer Science</source>
+        <target>Ingenieria en Informática</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/data-sheet/data-sheet.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

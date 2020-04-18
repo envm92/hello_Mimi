@@ -10,6 +10,11 @@ $hello-mimi-theme: mat-dark-theme($hello-mimi-primary, $hello-mimi-accent, $hell
 @include angular-material-theme($hello-mimi-theme);
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Jura', sans-serif; }
+
+.header-section {
+  font-size: 20px;
+}
+
 .container {
-  margin: 1rem;
+  padding: 20px;
 }

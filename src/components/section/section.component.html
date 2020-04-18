@@ -1,0 +1,9 @@
+<div fxLayout="column" fxLayoutGap="10px" class="container">
+  <div fxLayout="row" fxLayoutGap="5px" class="header-section">
+    <fa-icon [icon]="section.icon"></fa-icon>
+    <span>{{section.title}}</span>
+  </div>
+  <mat-chip-list>
+    <mat-chip *ngFor="let item of section.list" [color]="item.color" [selected]="item.color != ''">{{item.label}}</mat-chip>
+  </mat-chip-list>
+</div>

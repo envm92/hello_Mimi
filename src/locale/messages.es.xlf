@@ -110,6 +110,42 @@
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="english">
+        <source>English</source>
+        <target>Inglés</target>
+      </trans-unit>
+      <trans-unit id="spanish">
+        <source>Spanish</source>
+        <target>Español</target>
+      </trans-unit>
+      <trans-unit id="toolsLabel">
+        <source>Tools</source>
+        <target>Herramientas</target>
+      </trans-unit>
+      <trans-unit id="skillsLabel">
+        <source>Skills</source>
+        <target>Habilidades</target>
+      </trans-unit>
+      <trans-unit id="creativeChip">
+        <source>Creative</source>
+        <target>Creativa</target>
+      </trans-unit>
+      <trans-unit id="teamPlayerChip">
+        <source>Team player</source>
+        <target>Trabajo en equipo</target>
+      </trans-unit>
+      <trans-unit id="problemSolverChip">
+        <source>Problem-solver</source>
+        <target>Resolución de problemas</target>
+      </trans-unit>
+      <trans-unit id="leadChip">
+        <source>Lead</source>
+        <target>Líder</target>
+      </trans-unit>
+      <trans-unit id="agileChip">
+        <source>Agile Practices</source>
+        <target>Prácticas ágiles</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

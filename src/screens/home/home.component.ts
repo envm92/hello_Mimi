@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   };
   sections = [
     {
-      title: 'Languages',
+      title: $localize`:@@languagesLabel:Languages`,
       icon: faCode,
       list: [
         { label: 'JavaScript', color: 'primary' },
@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
         { label: 'HTML/CSS', color: '' }
       ]
     } , {
-      title: 'Tools',
+      title: $localize`:@@toolsLabel:Tools`,
       icon: faTools,
       list: [
         { label: 'Flutter', color: 'primary' },
@@ -35,14 +35,14 @@ export class HomeComponent implements OnInit {
         { label: 'Sketch', color: '' },
       ]
     } , {
-    title: 'Skills',
+    title: $localize`:@@skillsLabel:Skills`,
     icon: faCubes,
     list: [
-      { label: 'Creative', color: 'primary' },
-      { label: 'Team player', color: 'warn' },
-      { label: 'Problem-solver', color: 'accent' },
-      { label: 'Lead', color: '' },
-      { label: 'Agile Practices', color: '' }
+      { label: $localize`:@@creativeChip:Creative`, color: 'primary' },
+      { label: $localize`:@@teamPlayerChip:Team player`, color: 'warn' },
+      { label: $localize`:@@problemSolverChip:Problem-solver`, color: 'accent' },
+      { label: $localize`:@@leadChip:Lead`, color: '' },
+      { label: $localize`:@@agileChip:Agile Practices`, color: '' }
     ]
   }];
   constructor() {}

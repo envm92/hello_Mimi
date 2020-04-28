@@ -106,6 +106,9 @@
       <trans-unit id="agileChip">
         <source>Agile Practices</source>
       </trans-unit>
+      <trans-unit id="localeSnackBar">
+        <source>¿Quieres visitar el sitio web en español?</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

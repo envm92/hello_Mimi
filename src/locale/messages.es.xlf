@@ -146,6 +146,10 @@
         <source>Agile Practices</source>
         <target>Prácticas ágiles</target>
       </trans-unit>
+      <trans-unit id="localeSnackBar">
+        <source>¿Quieres visitar el sitio web en español?</source>
+        <target>Do you want to visit the website in English?</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

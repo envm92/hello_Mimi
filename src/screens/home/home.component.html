@@ -4,15 +4,15 @@
       <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between center">
         <span><strong>Hello World!</strong></span>
         <div>
-          <a mat-icon-button aria-label="GitHub" target="_blank" href="https://github.com/envm92/hello_Mimi">
+          <a mat-icon-button aria-label="GitHub" target="_blank" rel="noreferrer" href="https://github.com/envm92/hello_Mimi">
             <fa-icon class="menu-icon" [icon]="icons.gitHub"></fa-icon>
           </a>
-          <button mat-icon-button [matMenuTriggerFor]="menu">
+          <button mat-icon-button aria-label="Language Menu" [matMenuTriggerFor]="menu">
             <fa-icon class="menu-icon" [icon]="icons.language"></fa-icon>
           </button>
           <mat-menu #menu="matMenu">
-            <a mat-menu-item href="/en/index.html">English</a>
-            <a mat-menu-item href="/es/index.html">Spanish</a>
+            <a mat-menu-item aria-label="English" href="/en/index.html" i18n="@@english">English</a>
+            <a mat-menu-item aria-label="Spanish" href="/es/index.html" i18n="@@spanish">Spanish</a>
           </mat-menu>
         </div>
       </mat-toolbar-row>

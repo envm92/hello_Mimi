@@ -23,6 +23,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatToolbarModule,
     MatButtonModule,
     MatChipsModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
